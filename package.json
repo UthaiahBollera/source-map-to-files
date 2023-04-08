@@ -1,6 +1,6 @@
 {
   "name": "source-map-to-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool for converting source map files to the original files, making it easier to debug and troubleshoot your code.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,7 +9,8 @@
     "dist/"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.commonjs.json && tsc -p tsconfig.esm.json"
+    "build": "tsc -p tsconfig.commonjs.json && tsc -p tsconfig.esm.json",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "source-map",
