@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+
+# Build output directories
+dist/
+out/
+
+# Cache and temporary files
+.cache/
+*.log
+*.tmp
+*.pid
+*.swp
+*.swx
+*.bak
+
+# IDE and editor directories and files
+.vscode/
+*.sublime-workspace
+*.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Package management lock files
+package-lock.json
+yarn.lock
+
+# TypeScript specific
+*.tsbuildinfo
