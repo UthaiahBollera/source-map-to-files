@@ -1,0 +1,37 @@
+{
+  "name": "source-map-to-files",
+  "version": "1.0.0",
+  "description": "A tool for converting source map files to the original files, making it easier to debug and troubleshoot your code.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.commonjs.json && tsc -p tsconfig.esm.json"
+  },
+  "keywords": [
+    "source-map",
+    "source-files",
+    "mapping",
+    "extraction",
+    "deobfuscation",
+    "debugging",
+    "reverse-engineering",
+    "minification",
+    "transpilation",
+    "recovery"
+  ],
+  "author": "bollera.sanju@outlook.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "source-map": "^0.7.4"
+  }
+}
